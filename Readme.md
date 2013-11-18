@@ -1,2 +1,3 @@
-#2013-11-18hoge
-Java初級 - kanpe_java03
+# 2013-11-18
+## Java初級
+ * kanpe_java03
