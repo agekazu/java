@@ -1,0 +1,11 @@
+/bin
+.DS_Store
+Trash
+*.toc
+*~
+*.sqp
+*.bb
+*.xbb
+*.log
+*.aux
+*.dvi
