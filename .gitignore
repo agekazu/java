@@ -2,10 +2,14 @@
 .DS_Store
 Trash
 *.toc
-*~
-*.sqp
+*.swp
 *.bb
 *.xbb
 *.log
 *.aux
 *.dvi
+*.settings/
+*.class
+*.jar
+*.war
+*.ear
