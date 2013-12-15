@@ -12,7 +12,7 @@ public class Kanpe_java11 {
 	}
 
 	public static int getMax(int a, int b, int c) {
-		int d = a >= b ? a:b;
-		return d >= c ? d:c;
+		int d = (a >= b)? a : b;
+		return (d >= c)? d : c;
 	}
 }

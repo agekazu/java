@@ -16,17 +16,17 @@ public class Kanpe_java13 {
 		if (a <= b){
 			if (b <= c) { 		// a <= b <= c
 				return b;
-			} else if (a <= c){ // a <= c <= b
+			} else if (a <= c){	// a <= c <= b
 			 	return c;
 			} else {			// c <= a <= b
 				return a;
 			}
 		} else {
-			if (a <= c){			// b <= a <= c
+			if (a <= c){		// b <= a <= c
 				return a; 
-			} else if(c <= a){		// b <= c <= a
+			} else if(c <= a){	// b <= c <= a
 				return c;
-			} else {				// c <= b <= a
+			} else {			// c <= b <= a
 				return  b;
 			}
 		}
