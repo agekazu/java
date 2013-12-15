@@ -14,7 +14,7 @@ public class Kanpe_java10 {
 		 */
 	}
 
-	private static int getMin(int a, int b){
+	private static int getMin(int a, int b) {
 		return (a <= b)? a : b;
 	}
 

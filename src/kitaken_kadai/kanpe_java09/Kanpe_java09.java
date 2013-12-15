@@ -13,7 +13,7 @@ public class Kanpe_java09 {
 		 */
 	}
 
-	private static int getMax(int a, int b){
+	private static int getMax(int a, int b) {
 		return (a >= b) ? a : b;
 	}
 }
