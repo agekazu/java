@@ -4,9 +4,9 @@ public class Kanpe_java05 {
 
 	public static void main(String[] args) {
 
-		for(int i=1; i<=9; i++){
-			for(int j=1; j<=9; j++){
-				System.out.println(i+"*"+j+"="+i*j);
+		for(int left=1; left<=9; left++){
+			for(int right=1; right<=9; right++){
+				System.out.println(left+"*"+right+"="+left*right);
 			}
 		}
 	}
