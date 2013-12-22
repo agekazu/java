@@ -3,6 +3,7 @@ import java.awt.BorderLayout;
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.Color;
+import java.awt.Font;
 
 public class KanpeSwing extends JFrame {
 
@@ -10,11 +11,10 @@ public class KanpeSwing extends JFrame {
 
 	JButton b1;
 	JLabel l1;
-	Color color[] = {Color.BLACK, Color.RED, Color.BLUE,
-			Color.CYAN,Color.DARK_GRAY, Color.GRAY,
-			Color.GREEN, Color.LIGHT_GRAY, Color.MAGENTA,
-			Color.ORANGE, Color.PINK, Color.WHITE, Color.YELLOW,
-			Color.RED, new Color(100, 150, 200)};
+	Font fonts[] = {
+			new Font("Safari",Font.PLAIN,14), new Font("SanSerif",Font.PLAIN,14),
+			new Font("Monospaced",Font.PLAIN,14), new Font("Dialog",Font.PLAIN,14),
+			new Font("DialogInput",Font.PLAIN,14) };
 
 	public KanpeSwing() {
 		super();
@@ -36,8 +36,9 @@ public class KanpeSwing extends JFrame {
 	class MyActionAdapter implements ActionListener {
 		int a = 0;
 		public void actionPerformed(ActionEvent ev) {
-			l1.setBackground(color[a % color.length]);
-			System.out.println(a % color.length);
+			l1.setFont(fonts[a % fonts.length]);
+			l1.setText(l1.getFont().getFamily());
+			System.out.println(fonts[a % fonts.length]);
 			b1.setText("you clicked " + a + "time.");
 			a++;
 		}
